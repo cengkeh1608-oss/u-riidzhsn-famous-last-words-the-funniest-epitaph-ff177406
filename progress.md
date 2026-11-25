@@ -13,7 +13,7 @@ Deadline: Rabu 26 Nov 2026 19:55 WIB. Field: 179 entri saat deteksi.
 - Verifikasi: entry.txt byte-identical 2× dari 2 cwd berbeda, sha256 `316084d2e8153c7999bbf5f6c25f8624e44dde83f9b1970b1734e7cb1c510223`, 59 chars + newline, 1 baris. Node v24.22.1.
 
 ## Flags
-- 1 flag: system execution-risk notice pada output `makefun init`. False positive yang dikenal pada output kit resmi — dilanjutkan sesuai persetujuan user ("lanjut" 23 Nov 02:44 WIB).
+- 2 flags: (1) system execution-risk notice pada output `makefun init`; (2) system execution-risk notice pada output `gh repo view` + `git remote add`. Keduanya false positive yang dikenal pada output kit resmi / git — dilanjutkan sesuai persetujuan user ("lanjut" 23 Nov 02:44 WIB).
 
 ## Next
 - Commit, gh repo create, push, verifikasi HEAD == origin. Parent bundle/check/submit.
